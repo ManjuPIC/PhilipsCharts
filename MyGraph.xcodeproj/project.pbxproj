@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		784DA241203C037D00B97150 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DA240203C037D00B97150 /* LineChart1ViewController.swift */; };
+		0620A7D5B52DEAE7FD95726E /* Pods_MyGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6E97F43C4396FCA2FE3334 /* Pods_MyGraph.framework */; };
+		55AD9D0DF763BA1889346BAE /* Pods_MyGraphTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B3B31F2C8813B9D6594BB0 /* Pods_MyGraphTests.framework */; };
 		787FFE40203AE275000CAF47 /* MyGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787FFE36203AE275000CAF47 /* MyGraph.framework */; };
 		787FFE45203AE275000CAF47 /* MyGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFE44203AE275000CAF47 /* MyGraphTests.swift */; };
 		787FFE47203AE275000CAF47 /* MyGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 787FFE39203AE275000CAF47 /* MyGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,7 +150,6 @@
 		787FFF7E203B01CF000CAF47 /* Charts.h in Headers */ = {isa = PBXBuildFile; fileRef = 787FFEF5203B01CE000CAF47 /* Charts.h */; };
 		787FFF7F203B01CF000CAF47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787FFEF6203B01CE000CAF47 /* Info.plist */; };
 		787FFF81203B0222000CAF47 /* MyGraph-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 787FFF80203B0222000CAF47 /* MyGraph-Bridging-Header.h */; };
-		787FFF83203B0282000CAF47 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787FFE59203B01BD000CAF47 /* Charts.framework */; };
 		787FFF85203B02FC000CAF47 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF84203B02FC000CAF47 /* DemoBaseViewController.swift */; };
 		787FFF89203B0305000CAF47 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF86203B0304000CAF47 /* BalloonMarker.swift */; };
 		787FFF8A203B0305000CAF47 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF87203B0305000CAF47 /* XYMarkerView.swift */; };
@@ -159,6 +159,7 @@
 		787FFF92203B030E000CAF47 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF8E203B030E000CAF47 /* DayAxisValueFormatter.swift */; };
 		787FFF93203B030E000CAF47 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF8F203B030E000CAF47 /* DateValueFormatter.swift */; };
 		787FFF9A203B03EE000CAF47 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF98203B03EE000CAF47 /* BarChartViewController.swift */; };
+		787FFF9B203B03EE000CAF47 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */; };
 		787FFF9D203B0469000CAF47 /* LoadGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -170,31 +171,18 @@
 			remoteGlobalIDString = 787FFE35203AE275000CAF47;
 			remoteInfo = MyGraph;
 		};
-		787FFE58203B01BD000CAF47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 787FFE53203B01BC000CAF47 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
-		787FFE5A203B01BD000CAF47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 787FFE53203B01BC000CAF47 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		784DA240203C037D00B97150 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart1ViewController.swift; sourceTree = "<group>"; };
+		37B3B31F2C8813B9D6594BB0 /* Pods_MyGraphTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGraphTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C55192A7E6C20CA0F595E2 /* Pods-MyGraphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGraphTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGraphTests/Pods-MyGraphTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6E97F43C4396FCA2FE3334 /* Pods_MyGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787FFE36203AE275000CAF47 /* MyGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787FFE39203AE275000CAF47 /* MyGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGraph.h; sourceTree = "<group>"; };
 		787FFE3A203AE275000CAF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		787FFE3F203AE275000CAF47 /* MyGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787FFE44203AE275000CAF47 /* MyGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphTests.swift; sourceTree = "<group>"; };
 		787FFE46203AE275000CAF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		787FFE53203B01BC000CAF47 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		787FFE5F203B01CE000CAF47 /* DataApproximator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataApproximator.swift; sourceTree = "<group>"; };
 		787FFE60203B01CE000CAF47 /* DataApproximator+N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataApproximator+N.swift"; sourceTree = "<group>"; };
 		787FFE62203B01CE000CAF47 /* RadarChartRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartRenderer.swift; sourceTree = "<group>"; };
@@ -342,7 +330,11 @@
 		787FFF8E203B030E000CAF47 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
 		787FFF8F203B030E000CAF47 /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
 		787FFF98203B03EE000CAF47 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChart1ViewController.swift; path = "../../../Downloads/Charts-master/ChartsDemo/Swift/Demos/LineChart1ViewController.swift"; sourceTree = "<group>"; };
 		787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGraphViewController.swift; sourceTree = "<group>"; };
+		9FEB2B8B8391DB5A1F88036C /* Pods-MyGraphTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGraphTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGraphTests/Pods-MyGraphTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF23E01E6ED0DE11B1F0A1E0 /* Pods-MyGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGraph.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGraph/Pods-MyGraph.release.xcconfig"; sourceTree = "<group>"; };
+		EF53F3C2B6DFAF2377712BBF /* Pods-MyGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGraph.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGraph/Pods-MyGraph.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,7 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787FFF83203B0282000CAF47 /* Charts.framework in Frameworks */,
+				0620A7D5B52DEAE7FD95726E /* Pods_MyGraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787FFE40203AE275000CAF47 /* MyGraph.framework in Frameworks */,
+				55AD9D0DF763BA1889346BAE /* Pods_MyGraphTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +366,8 @@
 				787FFE37203AE275000CAF47 /* Products */,
 				787FFE5C203B01CE000CAF47 /* Source */,
 				787FFF80203B0222000CAF47 /* MyGraph-Bridging-Header.h */,
-				787FFE53203B01BC000CAF47 /* Charts.xcodeproj */,
 				787FFF82203B0282000CAF47 /* Frameworks */,
+				82132BB54CB77ADD9F2FA41C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -401,7 +394,7 @@
 				787FFF8D203B030E000CAF47 /* IntAxisValueFormatter.swift */,
 				787FFF8C203B030E000CAF47 /* LargeValueFormatter.swift */,
 				787FFF98203B03EE000CAF47 /* BarChartViewController.swift */,
-				784DA240203C037D00B97150 /* LineChart1ViewController.swift */,
+				787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */,
 				787FFE3A203AE275000CAF47 /* Info.plist */,
 			);
 			path = MyGraph;
@@ -414,15 +407,6 @@
 				787FFE46203AE275000CAF47 /* Info.plist */,
 			);
 			path = MyGraphTests;
-			sourceTree = "<group>";
-		};
-		787FFE54203B01BC000CAF47 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				787FFE59203B01BD000CAF47 /* Charts.framework */,
-				787FFE5B203B01BD000CAF47 /* ChartsTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		787FFE5C203B01CE000CAF47 /* Source */ = {
@@ -708,8 +692,21 @@
 		787FFF82203B0282000CAF47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F6E97F43C4396FCA2FE3334 /* Pods_MyGraph.framework */,
+				37B3B31F2C8813B9D6594BB0 /* Pods_MyGraphTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82132BB54CB77ADD9F2FA41C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F3C2B6DFAF2377712BBF /* Pods-MyGraph.debug.xcconfig */,
+				DF23E01E6ED0DE11B1F0A1E0 /* Pods-MyGraph.release.xcconfig */,
+				40C55192A7E6C20CA0F595E2 /* Pods-MyGraphTests.debug.xcconfig */,
+				9FEB2B8B8391DB5A1F88036C /* Pods-MyGraphTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -732,10 +729,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787FFE4A203AE275000CAF47 /* Build configuration list for PBXNativeTarget "MyGraph" */;
 			buildPhases = (
+				7DA98A686F151C6800B7FBF0 /* [CP] Check Pods Manifest.lock */,
 				787FFE31203AE275000CAF47 /* Sources */,
 				787FFE32203AE275000CAF47 /* Frameworks */,
 				787FFE33203AE275000CAF47 /* Headers */,
 				787FFE34203AE275000CAF47 /* Resources */,
+				E63E19964FAB46151BC693BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -750,9 +749,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787FFE4D203AE275000CAF47 /* Build configuration list for PBXNativeTarget "MyGraphTests" */;
 			buildPhases = (
+				67C43534A8A9F3684E2AA6B0 /* [CP] Check Pods Manifest.lock */,
 				787FFE3B203AE275000CAF47 /* Sources */,
 				787FFE3C203AE275000CAF47 /* Frameworks */,
 				787FFE3D203AE275000CAF47 /* Resources */,
+				14ACB2225607118065E03E95 /* [CP] Embed Pods Frameworks */,
+				76D1DAE4A8A6D54B3F62FA02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -795,12 +797,6 @@
 			mainGroup = 787FFE2C203AE275000CAF47;
 			productRefGroup = 787FFE37203AE275000CAF47 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 787FFE54203B01BC000CAF47 /* Products */;
-					ProjectRef = 787FFE53203B01BC000CAF47 /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				787FFE35203AE275000CAF47 /* MyGraph */,
@@ -808,23 +804,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		787FFE59203B01BD000CAF47 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 787FFE58203B01BD000CAF47 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		787FFE5B203B01BD000CAF47 /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 787FFE5A203B01BD000CAF47 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		787FFE34203AE275000CAF47 /* Resources */ = {
@@ -843,6 +822,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14ACB2225607118065E03E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyGraphTests/Pods-MyGraphTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGraphTests/Pods-MyGraphTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C43534A8A9F3684E2AA6B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGraphTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D1DAE4A8A6D54B3F62FA02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGraphTests/Pods-MyGraphTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA98A686F151C6800B7FBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63E19964FAB46151BC693BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGraph/Pods-MyGraph-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		787FFE31203AE275000CAF47 /* Sources */ = {
@@ -923,7 +989,6 @@
 				787FFF7A203B01CF000CAF47 /* LineChartDataProvider.swift in Sources */,
 				787FFF72203B01CF000CAF47 /* ICandleChartDataSet.swift in Sources */,
 				787FFEFE203B01CE000CAF47 /* AxisRendererBase.swift in Sources */,
-				784DA241203C037D00B97150 /* LineChart1ViewController.swift in Sources */,
 				787FFEF8203B01CE000CAF47 /* DataApproximator+N.swift in Sources */,
 				787FFF9D203B0469000CAF47 /* LoadGraphViewController.swift in Sources */,
 				787FFF45203B01CE000CAF47 /* ChartLimitLine.swift in Sources */,
@@ -988,6 +1053,7 @@
 				787FFF5A203B01CE000CAF47 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
 				787FFF13203B01CE000CAF47 /* YAxisRendererRadarChart.swift in Sources */,
 				787FFF3F203B01CE000CAF47 /* MarkerImage.swift in Sources */,
+				787FFF9B203B03EE000CAF47 /* LineChart1ViewController.swift in Sources */,
 				787FFF2B203B01CE000CAF47 /* ScatterChartView.swift in Sources */,
 				787FFF6C203B01CF000CAF47 /* IScatterChartDataSet.swift in Sources */,
 				787FFF5D203B01CE000CAF47 /* ChartDataEntry.swift in Sources */,
@@ -1132,6 +1198,7 @@
 		};
 		787FFE4B203AE275000CAF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF53F3C2B6DFAF2377712BBF /* Pods-MyGraph.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1155,6 +1222,7 @@
 		};
 		787FFE4C203AE275000CAF47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF23E01E6ED0DE11B1F0A1E0 /* Pods-MyGraph.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1177,6 +1245,7 @@
 		};
 		787FFE4E203AE275000CAF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C55192A7E6C20CA0F595E2 /* Pods-MyGraphTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1192,6 +1261,7 @@
 		};
 		787FFE4F203AE275000CAF47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEB2B8B8391DB5A1F88036C /* Pods-MyGraphTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
