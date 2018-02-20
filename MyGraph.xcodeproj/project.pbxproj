@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784DA241203C037D00B97150 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DA240203C037D00B97150 /* LineChart1ViewController.swift */; };
 		787FFE40203AE275000CAF47 /* MyGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787FFE36203AE275000CAF47 /* MyGraph.framework */; };
 		787FFE45203AE275000CAF47 /* MyGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFE44203AE275000CAF47 /* MyGraphTests.swift */; };
 		787FFE47203AE275000CAF47 /* MyGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 787FFE39203AE275000CAF47 /* MyGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -158,7 +159,6 @@
 		787FFF92203B030E000CAF47 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF8E203B030E000CAF47 /* DayAxisValueFormatter.swift */; };
 		787FFF93203B030E000CAF47 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF8F203B030E000CAF47 /* DateValueFormatter.swift */; };
 		787FFF9A203B03EE000CAF47 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF98203B03EE000CAF47 /* BarChartViewController.swift */; };
-		787FFF9B203B03EE000CAF47 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */; };
 		787FFF9D203B0469000CAF47 /* LoadGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -187,6 +187,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		784DA240203C037D00B97150 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart1ViewController.swift; sourceTree = "<group>"; };
 		787FFE36203AE275000CAF47 /* MyGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787FFE39203AE275000CAF47 /* MyGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGraph.h; sourceTree = "<group>"; };
 		787FFE3A203AE275000CAF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -341,7 +342,6 @@
 		787FFF8E203B030E000CAF47 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
 		787FFF8F203B030E000CAF47 /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
 		787FFF98203B03EE000CAF47 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
-		787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChart1ViewController.swift; path = "../../../Downloads/Charts-master/ChartsDemo/Swift/Demos/LineChart1ViewController.swift"; sourceTree = "<group>"; };
 		787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -401,7 +401,7 @@
 				787FFF8D203B030E000CAF47 /* IntAxisValueFormatter.swift */,
 				787FFF8C203B030E000CAF47 /* LargeValueFormatter.swift */,
 				787FFF98203B03EE000CAF47 /* BarChartViewController.swift */,
-				787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */,
+				784DA240203C037D00B97150 /* LineChart1ViewController.swift */,
 				787FFE3A203AE275000CAF47 /* Info.plist */,
 			);
 			path = MyGraph;
@@ -923,6 +923,7 @@
 				787FFF7A203B01CF000CAF47 /* LineChartDataProvider.swift in Sources */,
 				787FFF72203B01CF000CAF47 /* ICandleChartDataSet.swift in Sources */,
 				787FFEFE203B01CE000CAF47 /* AxisRendererBase.swift in Sources */,
+				784DA241203C037D00B97150 /* LineChart1ViewController.swift in Sources */,
 				787FFEF8203B01CE000CAF47 /* DataApproximator+N.swift in Sources */,
 				787FFF9D203B0469000CAF47 /* LoadGraphViewController.swift in Sources */,
 				787FFF45203B01CE000CAF47 /* ChartLimitLine.swift in Sources */,
@@ -987,7 +988,6 @@
 				787FFF5A203B01CE000CAF47 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
 				787FFF13203B01CE000CAF47 /* YAxisRendererRadarChart.swift in Sources */,
 				787FFF3F203B01CE000CAF47 /* MarkerImage.swift in Sources */,
-				787FFF9B203B03EE000CAF47 /* LineChart1ViewController.swift in Sources */,
 				787FFF2B203B01CE000CAF47 /* ScatterChartView.swift in Sources */,
 				787FFF6C203B01CF000CAF47 /* IScatterChartDataSet.swift in Sources */,
 				787FFF5D203B01CE000CAF47 /* ChartDataEntry.swift in Sources */,
