@@ -160,7 +160,6 @@
 		787FFF9A203B03EE000CAF47 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF98203B03EE000CAF47 /* BarChartViewController.swift */; };
 		787FFF9B203B03EE000CAF47 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF99203B03EE000CAF47 /* LineChart1ViewController.swift */; };
 		787FFF9D203B0469000CAF47 /* LoadGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */; };
-		78A20937203BEF4E00F3B1DA /* LoadGraphViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 787FFF9C203B0469000CAF47 /* LoadGraphViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -721,7 +720,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				787FFE47203AE275000CAF47 /* MyGraph.h in Headers */,
-				78A20937203BEF4E00F3B1DA /* LoadGraphViewController.swift in Headers */,
 				787FFF7E203B01CF000CAF47 /* Charts.h in Headers */,
 				787FFF81203B0222000CAF47 /* MyGraph-Bridging-Header.h in Headers */,
 			);
