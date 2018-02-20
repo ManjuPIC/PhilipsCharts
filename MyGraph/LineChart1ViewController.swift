@@ -11,15 +11,30 @@ import Charts
 
 class LineChart1ViewController: DemoBaseViewController {
 
-    @IBOutlet var chartView: LineChartView!
-    @IBOutlet var sliderX: UISlider!
-    @IBOutlet var sliderY: UISlider!
-    @IBOutlet var sliderTextX: UITextField!
-    @IBOutlet var sliderTextY: UITextField!
+    var chartView: LineChartView!
+    var sliderX: UISlider!
+    var sliderY: UISlider!
+    var sliderTextX: UITextField!
+    var sliderTextY: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        chartView = LineChartView()
+        chartView.frame = CGRect.init(x: 0.0, y: 64.0, width: self.view.frame.size.width, height: self.view.frame.size.height - 264.0)
+        
+        sliderX = UISlider.init(frame: CGRect.init(x: 0.0, y: 270.0, width: 200.0, height: 40.0))
+        sliderY = UISlider.init(frame: CGRect.init(x: 0.0, y: 310.0, width: 200.0, height: 40.0))
+        sliderTextX = UITextField.init(frame: CGRect.init(x: 270.0, y: 60.0, width: 50.0, height: 40.0))
+        sliderTextY = UITextField.init(frame: CGRect.init(x: 310.0, y: 100.0, width: 50.0, height: 40.0))
+        sliderX.value = 1
+        sliderX.minimumValue = 1
+        sliderX.maximumValue = 500
+        
+        sliderY.value = 1
+        sliderY.minimumValue = 1
+        sliderY.maximumValue = 200
+        
         // Do any additional setup after loading the view.
         self.title = "Line Chart 1"
         self.options = [.toggleValues,
@@ -139,6 +154,18 @@ class LineChart1ViewController: DemoBaseViewController {
         let data = LineChartData(dataSet: set1)
         
         chartView.data = data
+        
+        self.view .addSubview(chartView)
+        self.view .addSubview(sliderX)
+        self.view .addSubview(sliderY)
+        self.view .addSubview(sliderTextX)
+        self.view .addSubview(sliderTextY)
+        sliderTextY.isHidden = true
+        sliderTextX.isHidden = true
+        sliderY.isHidden = true
+        sliderX.isHidden = true
+        self.view.backgroundColor = UIColor.lightGray
+        self.view .bringSubview(toFront: chartView)
     }
     
     override func optionTapped(_ option: Option) {
@@ -178,7 +205,7 @@ class LineChart1ViewController: DemoBaseViewController {
         }
     }
 
-    @IBAction func slidersValueChanged(_ sender: Any?) {
+    func slidersValueChanged(_ sender: Any?) {
         sliderTextX.text = "\(Int(sliderX.value))"
         sliderTextY.text = "\(Int(sliderY.value))"
         
