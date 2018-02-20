@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7809DE1D2031966A00875FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809DE1C2031966A00875FE8 /* AppDelegate.swift */; };
+		7809DE1F2031966A00875FE8 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809DE1E2031966A00875FE8 /* ChartViewController.swift */; };
+		7809DE222031966B00875FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809DE202031966B00875FE8 /* Main.storyboard */; };
+		7809DE252031966B00875FE8 /* Philips_Chart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7809DE232031966B00875FE8 /* Philips_Chart.xcdatamodeld */; };
+		7809DE272031966B00875FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7809DE262031966B00875FE8 /* Assets.xcassets */; };
+		7809DE2A2031966B00875FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809DE282031966B00875FE8 /* LaunchScreen.storyboard */; };
+		7809DE352031966B00875FE8 /* Philips_ChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809DE342031966B00875FE8 /* Philips_ChartTests.swift */; };
+		7809DE402031966B00875FE8 /* Philips_ChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809DE3F2031966B00875FE8 /* Philips_ChartUITests.swift */; };
+		785FB5B320358CE500740C66 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5AB20358CE500740C66 /* XYMarkerView.swift */; };
+		785FB5B420358CE500740C66 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5AC20358CE500740C66 /* BalloonMarker.swift */; };
+		785FB5B520358CE500740C66 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5AD20358CE500740C66 /* RadarMarkerView.swift */; };
+		785FB5B620358CE500740C66 /* IntAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5AF20358CE500740C66 /* IntAxisValueFormatter.swift */; };
+		785FB5B720358CE500740C66 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5B020358CE500740C66 /* DayAxisValueFormatter.swift */; };
+		785FB5B820358CE500740C66 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5B120358CE500740C66 /* DateValueFormatter.swift */; };
+		785FB5B920358CE500740C66 /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785FB5B220358CE500740C66 /* LargeValueFormatter.swift */; };
+		787FFFD5203B1302000CAF47 /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787FFFD3203B1302000CAF47 /* BarChartViewController.xib */; };
+		787FFFD6203B1302000CAF47 /* LineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787FFFD4203B1302000CAF47 /* LineChart1ViewController.xib */; };
+		78FF6E1E203562C0001CA400 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E1C203562C0001CA400 /* BarChartViewController.swift */; };
+		78FF6E1F203562C0001CA400 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E1D203562C0001CA400 /* LineChart1ViewController.swift */; };
+		78FF6E21203567A6001CA400 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E20203567A6001CA400 /* DemoBaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7809DE312031966B00875FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809DE112031966A00875FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809DE182031966A00875FE8;
+			remoteInfo = Philips_Chart;
+		};
+		7809DE3C2031966B00875FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809DE112031966A00875FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809DE182031966A00875FE8;
+			remoteInfo = Philips_Chart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BDCFBE68867D0AF5BB9021 /* Pods-Philips_ChartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_ChartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_ChartUITests/Pods-Philips_ChartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6860E8552E2C010C3FE1182D /* Pods-Philips_Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_Chart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_Chart/Pods-Philips_Chart.debug.xcconfig"; sourceTree = "<group>"; };
+		7809DE192031966A00875FE8 /* Philips_Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philips_Chart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809DE1C2031966A00875FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7809DE1E2031966A00875FE8 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		7809DE212031966B00875FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7809DE242031966B00875FE8 /* Philips_Chart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Philips_Chart.xcdatamodel; sourceTree = "<group>"; };
+		7809DE262031966B00875FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7809DE292031966B00875FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7809DE2B2031966B00875FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809DE302031966B00875FE8 /* Philips_ChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Philips_ChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809DE342031966B00875FE8 /* Philips_ChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philips_ChartTests.swift; sourceTree = "<group>"; };
+		7809DE362031966B00875FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809DE3B2031966B00875FE8 /* Philips_ChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Philips_ChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809DE3F2031966B00875FE8 /* Philips_ChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philips_ChartUITests.swift; sourceTree = "<group>"; };
+		7809DE412031966B00875FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785FB5AB20358CE500740C66 /* XYMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		785FB5AC20358CE500740C66 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		785FB5AD20358CE500740C66 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		785FB5AF20358CE500740C66 /* IntAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntAxisValueFormatter.swift; sourceTree = "<group>"; };
+		785FB5B020358CE500740C66 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		785FB5B120358CE500740C66 /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		785FB5B220358CE500740C66 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		787FFFD3203B1302000CAF47 /* BarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
+		787FFFD4203B1302000CAF47 /* LineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart1ViewController.xib; sourceTree = "<group>"; };
+		78FF6E1C203562C0001CA400 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarChartViewController.swift; path = ViewControllers/BarChartViewController.swift; sourceTree = SOURCE_ROOT; };
+		78FF6E1D203562C0001CA400 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChart1ViewController.swift; path = ViewControllers/LineChart1ViewController.swift; sourceTree = SOURCE_ROOT; };
+		78FF6E20203567A6001CA400 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoBaseViewController.swift; path = ViewControllers/DemoBaseViewController.swift; sourceTree = SOURCE_ROOT; };
+		7DAFC0A66AF2EB666811A2E3 /* Pods-Philips_ChartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_ChartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_ChartTests/Pods-Philips_ChartTests.release.xcconfig"; sourceTree = "<group>"; };
+		A212078D19F3FEB479A9A3D7 /* Pods-Philips_Chart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_Chart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_Chart/Pods-Philips_Chart.release.xcconfig"; sourceTree = "<group>"; };
+		AABDE4883B786492797CA2BB /* Pods-Philips_ChartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_ChartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_ChartTests/Pods-Philips_ChartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA3C7D5B4B339B240EA2083 /* Pods-Philips_ChartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philips_ChartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Philips_ChartUITests/Pods-Philips_ChartUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7809DE162031966A00875FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE2D2031966B00875FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE382031966B00875FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E3B4E64B19720C37D09C7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6860E8552E2C010C3FE1182D /* Pods-Philips_Chart.debug.xcconfig */,
+				A212078D19F3FEB479A9A3D7 /* Pods-Philips_Chart.release.xcconfig */,
+				AABDE4883B786492797CA2BB /* Pods-Philips_ChartTests.debug.xcconfig */,
+				7DAFC0A66AF2EB666811A2E3 /* Pods-Philips_ChartTests.release.xcconfig */,
+				06BDCFBE68867D0AF5BB9021 /* Pods-Philips_ChartUITests.debug.xcconfig */,
+				DCA3C7D5B4B339B240EA2083 /* Pods-Philips_ChartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7809DE102031966A00875FE8 = {
+			isa = PBXGroup;
+			children = (
+				7809DE1B2031966A00875FE8 /* Philips_Chart */,
+				7809DE332031966B00875FE8 /* Philips_ChartTests */,
+				7809DE3E2031966B00875FE8 /* Philips_ChartUITests */,
+				7809DE1A2031966A00875FE8 /* Products */,
+				5E3B4E64B19720C37D09C7E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7809DE1A2031966A00875FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7809DE192031966A00875FE8 /* Philips_Chart.app */,
+				7809DE302031966B00875FE8 /* Philips_ChartTests.xctest */,
+				7809DE3B2031966B00875FE8 /* Philips_ChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7809DE1B2031966A00875FE8 /* Philips_Chart */ = {
+			isa = PBXGroup;
+			children = (
+				7809DE1C2031966A00875FE8 /* AppDelegate.swift */,
+				7809DE1E2031966A00875FE8 /* ChartViewController.swift */,
+				7809DE202031966B00875FE8 /* Main.storyboard */,
+				785FB5AA20358CE500740C66 /* Components */,
+				785FB5AE20358CE500740C66 /* Formatters */,
+				78FF6E1B20356294001CA400 /* ViewControllers */,
+				787FFFD2203B1302000CAF47 /* Nib */,
+				7809DE262031966B00875FE8 /* Assets.xcassets */,
+				7809DE282031966B00875FE8 /* LaunchScreen.storyboard */,
+				7809DE2B2031966B00875FE8 /* Info.plist */,
+				7809DE232031966B00875FE8 /* Philips_Chart.xcdatamodeld */,
+			);
+			path = Philips_Chart;
+			sourceTree = "<group>";
+		};
+		7809DE332031966B00875FE8 /* Philips_ChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				7809DE342031966B00875FE8 /* Philips_ChartTests.swift */,
+				7809DE362031966B00875FE8 /* Info.plist */,
+			);
+			path = Philips_ChartTests;
+			sourceTree = "<group>";
+		};
+		7809DE3E2031966B00875FE8 /* Philips_ChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7809DE3F2031966B00875FE8 /* Philips_ChartUITests.swift */,
+				7809DE412031966B00875FE8 /* Info.plist */,
+			);
+			path = Philips_ChartUITests;
+			sourceTree = "<group>";
+		};
+		785FB5AA20358CE500740C66 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				785FB5AB20358CE500740C66 /* XYMarkerView.swift */,
+				785FB5AC20358CE500740C66 /* BalloonMarker.swift */,
+				785FB5AD20358CE500740C66 /* RadarMarkerView.swift */,
+			);
+			path = Components;
+			sourceTree = SOURCE_ROOT;
+		};
+		785FB5AE20358CE500740C66 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				785FB5AF20358CE500740C66 /* IntAxisValueFormatter.swift */,
+				785FB5B020358CE500740C66 /* DayAxisValueFormatter.swift */,
+				785FB5B120358CE500740C66 /* DateValueFormatter.swift */,
+				785FB5B220358CE500740C66 /* LargeValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = SOURCE_ROOT;
+		};
+		787FFFD2203B1302000CAF47 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				787FFFD3203B1302000CAF47 /* BarChartViewController.xib */,
+				787FFFD4203B1302000CAF47 /* LineChart1ViewController.xib */,
+			);
+			name = Nib;
+			path = Philips_Chart/Nib;
+			sourceTree = SOURCE_ROOT;
+		};
+		78FF6E1B20356294001CA400 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78FF6E20203567A6001CA400 /* DemoBaseViewController.swift */,
+				78FF6E1C203562C0001CA400 /* BarChartViewController.swift */,
+				78FF6E1D203562C0001CA400 /* LineChart1ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7809DE182031966A00875FE8 /* Philips_Chart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809DE442031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_Chart" */;
+			buildPhases = (
+				B5767E51DE5F11D7C544705C /* [CP] Check Pods Manifest.lock */,
+				7809DE152031966A00875FE8 /* Sources */,
+				7809DE162031966A00875FE8 /* Frameworks */,
+				7809DE172031966A00875FE8 /* Resources */,
+				6474B0A50D0AA553A5AA14F5 /* [CP] Embed Pods Frameworks */,
+				D8E477B63493B0331694E2CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Philips_Chart;
+			productName = Philips_Chart;
+			productReference = 7809DE192031966A00875FE8 /* Philips_Chart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7809DE2F2031966B00875FE8 /* Philips_ChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809DE472031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_ChartTests" */;
+			buildPhases = (
+				71D10D82C8B7D8CA217A146B /* [CP] Check Pods Manifest.lock */,
+				7809DE2C2031966B00875FE8 /* Sources */,
+				7809DE2D2031966B00875FE8 /* Frameworks */,
+				7809DE2E2031966B00875FE8 /* Resources */,
+				87217D24B39894316E76C673 /* [CP] Embed Pods Frameworks */,
+				0DD3BEAB2700A76357062AC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809DE322031966B00875FE8 /* PBXTargetDependency */,
+			);
+			name = Philips_ChartTests;
+			productName = Philips_ChartTests;
+			productReference = 7809DE302031966B00875FE8 /* Philips_ChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7809DE3A2031966B00875FE8 /* Philips_ChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809DE4A2031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_ChartUITests" */;
+			buildPhases = (
+				BF64E0F5267F8449656FEEA2 /* [CP] Check Pods Manifest.lock */,
+				7809DE372031966B00875FE8 /* Sources */,
+				7809DE382031966B00875FE8 /* Frameworks */,
+				7809DE392031966B00875FE8 /* Resources */,
+				A72A0FE3D8240A04A154275E /* [CP] Embed Pods Frameworks */,
+				B6CF8982CC7773640573E2B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809DE3D2031966B00875FE8 /* PBXTargetDependency */,
+			);
+			name = Philips_ChartUITests;
+			productName = Philips_ChartUITests;
+			productReference = 7809DE3B2031966B00875FE8 /* Philips_ChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7809DE112031966A00875FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Manjunath Shivakumara";
+				TargetAttributes = {
+					7809DE182031966A00875FE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7809DE2F2031966B00875FE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7809DE182031966A00875FE8;
+					};
+					7809DE3A2031966B00875FE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7809DE182031966A00875FE8;
+					};
+				};
+			};
+			buildConfigurationList = 7809DE142031966A00875FE8 /* Build configuration list for PBXProject "Philips_Chart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7809DE102031966A00875FE8;
+			productRefGroup = 7809DE1A2031966A00875FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7809DE182031966A00875FE8 /* Philips_Chart */,
+				7809DE2F2031966B00875FE8 /* Philips_ChartTests */,
+				7809DE3A2031966B00875FE8 /* Philips_ChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7809DE172031966A00875FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809DE2A2031966B00875FE8 /* LaunchScreen.storyboard in Resources */,
+				787FFFD6203B1302000CAF47 /* LineChart1ViewController.xib in Resources */,
+				7809DE272031966B00875FE8 /* Assets.xcassets in Resources */,
+				787FFFD5203B1302000CAF47 /* BarChartViewController.xib in Resources */,
+				7809DE222031966B00875FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE2E2031966B00875FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE392031966B00875FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD3BEAB2700A76357062AC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ChartTests/Pods-Philips_ChartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6474B0A50D0AA553A5AA14F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Philips_Chart/Pods-Philips_Chart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_Chart/Pods-Philips_Chart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D10D82C8B7D8CA217A146B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philips_ChartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87217D24B39894316E76C673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ChartTests/Pods-Philips_ChartTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ChartTests/Pods-Philips_ChartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72A0FE3D8240A04A154275E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ChartUITests/Pods-Philips_ChartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5767E51DE5F11D7C544705C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philips_Chart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CF8982CC7773640573E2B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_ChartUITests/Pods-Philips_ChartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF64E0F5267F8449656FEEA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philips_ChartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E477B63493B0331694E2CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Philips_Chart/Pods-Philips_Chart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7809DE152031966A00875FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FF6E21203567A6001CA400 /* DemoBaseViewController.swift in Sources */,
+				785FB5B320358CE500740C66 /* XYMarkerView.swift in Sources */,
+				785FB5B820358CE500740C66 /* DateValueFormatter.swift in Sources */,
+				7809DE252031966B00875FE8 /* Philips_Chart.xcdatamodeld in Sources */,
+				785FB5B620358CE500740C66 /* IntAxisValueFormatter.swift in Sources */,
+				785FB5B520358CE500740C66 /* RadarMarkerView.swift in Sources */,
+				785FB5B920358CE500740C66 /* LargeValueFormatter.swift in Sources */,
+				78FF6E1E203562C0001CA400 /* BarChartViewController.swift in Sources */,
+				785FB5B720358CE500740C66 /* DayAxisValueFormatter.swift in Sources */,
+				78FF6E1F203562C0001CA400 /* LineChart1ViewController.swift in Sources */,
+				7809DE1F2031966A00875FE8 /* ChartViewController.swift in Sources */,
+				7809DE1D2031966A00875FE8 /* AppDelegate.swift in Sources */,
+				785FB5B420358CE500740C66 /* BalloonMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE2C2031966B00875FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809DE352031966B00875FE8 /* Philips_ChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809DE372031966B00875FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809DE402031966B00875FE8 /* Philips_ChartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7809DE322031966B00875FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809DE182031966A00875FE8 /* Philips_Chart */;
+			targetProxy = 7809DE312031966B00875FE8 /* PBXContainerItemProxy */;
+		};
+		7809DE3D2031966B00875FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809DE182031966A00875FE8 /* Philips_Chart */;
+			targetProxy = 7809DE3C2031966B00875FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7809DE202031966B00875FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809DE212031966B00875FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7809DE282031966B00875FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809DE292031966B00875FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7809DE422031966B00875FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7809DE432031966B00875FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7809DE452031966B00875FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6860E8552E2C010C3FE1182D /* Pods-Philips_Chart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_Chart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7809DE462031966B00875FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A212078D19F3FEB479A9A3D7 /* Pods-Philips_Chart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_Chart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7809DE482031966B00875FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABDE4883B786492797CA2BB /* Pods-Philips_ChartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_ChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philips_Chart.app/Philips_Chart";
+			};
+			name = Debug;
+		};
+		7809DE492031966B00875FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAFC0A66AF2EB666811A2E3 /* Pods-Philips_ChartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_ChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philips_Chart.app/Philips_Chart";
+			};
+			name = Release;
+		};
+		7809DE4B2031966B00875FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BDCFBE68867D0AF5BB9021 /* Pods-Philips_ChartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_ChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ChartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philips_Chart;
+			};
+			name = Debug;
+		};
+		7809DE4C2031966B00875FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA3C7D5B4B339B240EA2083 /* Pods-Philips_ChartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S52777MVT;
+				INFOPLIST_FILE = Philips_ChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Philips.Philips-ChartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philips_Chart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7809DE142031966A00875FE8 /* Build configuration list for PBXProject "Philips_Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809DE422031966B00875FE8 /* Debug */,
+				7809DE432031966B00875FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809DE442031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809DE452031966B00875FE8 /* Debug */,
+				7809DE462031966B00875FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809DE472031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_ChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809DE482031966B00875FE8 /* Debug */,
+				7809DE492031966B00875FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809DE4A2031966B00875FE8 /* Build configuration list for PBXNativeTarget "Philips_ChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809DE4B2031966B00875FE8 /* Debug */,
+				7809DE4C2031966B00875FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7809DE232031966B00875FE8 /* Philips_Chart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7809DE242031966B00875FE8 /* Philips_Chart.xcdatamodel */,
+			);
+			currentVersion = 7809DE242031966B00875FE8 /* Philips_Chart.xcdatamodel */;
+			path = Philips_Chart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7809DE112031966A00875FE8 /* Project object */;
+}
